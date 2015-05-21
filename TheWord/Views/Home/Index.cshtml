@@ -1,0 +1,22 @@
+﻿@model List<TheWord.Models.GaryPost>
+
+@{
+    ViewBag.Title = "The Word of Gary";
+}
+@section featured {
+
+}
+<h3>The Word is back:</h3>
+<ol class="round">
+    <li class="one">
+        <h5>Not sure what to do with it.</h5>
+        Well I'm not sure if we'll ever use this, but I was really bored at work so I figured I'd put it back up.
+    </li>
+</ol>
+
+@foreach (TheWord.Models.GaryPost garyPost in Model)
+{
+    <div>
+        @Html.DisplayFor(x => garyPost)
+    </div>
+}

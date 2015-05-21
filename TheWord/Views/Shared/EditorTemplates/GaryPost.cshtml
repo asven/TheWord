@@ -1,0 +1,18 @@
+﻿@model TheWord.Models.GaryPost
+
+<div>
+
+    @Html.HiddenFor(x => x.ID)
+
+    @Html.LabelFor(x => x.Title)
+
+    @Html.TextBoxFor(x => x.Title)
+
+    @Html.LabelFor(x => x.PostDetail)
+    @Html.TextAreaFor(x => x.PostDetail)
+
+    <div>
+        <button type="submit" value="Save Post">Save it Gary</button>
+    </div>
+</div>
+

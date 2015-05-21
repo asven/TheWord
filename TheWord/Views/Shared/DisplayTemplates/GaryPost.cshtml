@@ -1,0 +1,18 @@
+﻿@model TheWord.Models.GaryPost
+
+<div style="width:100%" class="clear-fix">
+    <h2>@Model.Title</h2>
+</div>
+
+<div style="width:100%" class="clear-fix">
+    <div class="float-left" style="width:50%">
+        By @Model.ByUser
+    </div>
+    <div class="float-right" style="width:50%; text-align:right">
+        On @Model.PostedDate.ToShortDateString()
+    </div>
+</div>
+
+<div style="width:100%">
+    @Model.PostDetail
+</div>

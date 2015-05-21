@@ -1,0 +1,11 @@
+﻿@model TheWord.Models.GaryPost
+
+@{
+    ViewBag.Title = "Add New Post";
+}
+
+<h2>Add New Post</h2>
+@using (Html.BeginForm("SavePost", "Posts"))
+{
+    @Html.EditorFor(x => x)
+}
