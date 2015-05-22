@@ -88,4 +88,3 @@ C:\Users\sveaa01\Documents\Visual Studio 2013\Projects\TheWord\TheWord\bin\DotNe
 C:\Users\sveaa01\Documents\Visual Studio 2013\Projects\TheWord\TheWord\bin\DotNetOpenAuth.OpenId.RelyingParty.xml
 C:\Users\sveaa01\Documents\Visual Studio 2013\Projects\TheWord\TheWord\bin\Org.Mentalis.Security.Cryptography.xml
 C:\Users\sveaa01\Documents\Visual Studio 2013\Projects\TheWord\TheWord\bin\Mono.Math.xml
-C:\Users\sveaa01\Documents\Visual Studio 2013\Projects\TheWord\TheWord\obj\Debug\TheWord.csprojResolveAssemblyReference.cache
