@@ -15,7 +15,7 @@ namespace TheWord.Controllers
             SimpleRepository repo = new SimpleRepository("TheWord", SimpleRepositoryOptions.RunMigrations);
 
             List<GaryPost> posts = repo.All<GaryPost>().OrderByDescending(gp => gp.PostedDate).ToList();
-            return View(posts);
+            return View();
         }
     }
 }

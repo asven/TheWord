@@ -14,9 +14,13 @@
     </li>
 </ol>
 
-@foreach (TheWord.Models.GaryPost garyPost in Model)
+@if (Model != null)
 {
-    <div>
-        @Html.DisplayFor(x => garyPost)
-    </div>
+    foreach (TheWord.Models.GaryPost garyPost in Model)
+    {
+        <div>
+            @Html.DisplayFor(x => garyPost)
+        </div>
+    }
+
 }
